@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f6f8f5">
+    <meta name="theme-color" content="#f5f6f4">
     <meta name="description" content="Audiomanual passo a passo para preparar o purificador Consul CPB36.">
     <title>Audiomanual Consul CPB36</title>
     <link rel="stylesheet" href="styles.css">
@@ -12,51 +12,70 @@
   <body>
     <main class="app" aria-label="Audiomanual Consul CPB36">
       <header class="topbar">
-        <p class="eyebrow">Audiomanual Consul CPB36</p>
-        <button class="text-button" id="restart" type="button">Recomeçar</button>
+        <a class="brand" href="./" aria-label="Audiomanual Consul CPB36, início">
+          <span class="brand-mark" aria-hidden="true">C</span>
+          <span><strong>Consul</strong><small>Audiomanual CPB36</small></span>
+        </a>
+        <button class="restart" id="restart" type="button">
+          <span aria-hidden="true">↺</span> Recomeçar
+        </button>
       </header>
 
       <section class="progress" aria-label="Progresso da instalação">
-        <div class="progress-copy" id="progress-copy"></div>
-        <progress id="progress" max="13" value="1" aria-label="Progresso"></progress>
+        <div class="progress-labels">
+          <span id="progress-copy">Passo 1 de 13</span>
+          <span class="progress-hint">Você pode parar e continuar quando quiser.</span>
+        </div>
+        <progress id="progress" max="13" value="1" aria-label="Progresso da instalação"></progress>
       </section>
 
-      <section class="step" aria-labelledby="step-title">
-        <h1 id="step-title">Carregando o audiomanual…</h1>
-        <p class="step-text" id="step-text"></p>
+      <section class="stage" aria-labelledby="step-title">
+        <div class="step-copy">
+          <p class="step-label">PASSO A PASSO</p>
+          <h1 id="step-title">Carregando o audiomanual…</h1>
+          <p class="step-text" id="step-text"></p>
 
-        <div class="illustration" id="illustration" aria-live="off">
-          <div class="placeholder" id="image-placeholder">
-            <span class="placeholder-mark" aria-hidden="true">◇</span>
-            <p>Ilustração desta etapa ainda não disponível.</p>
-            <small>Consulte o texto e ouça a explicação.</small>
-          </div>
-          <img id="step-image" alt="" hidden>
+          <aside class="help" id="help" hidden>
+            <strong>Precisa de ajuda?</strong>
+            <p>Feche o registro. Se não souber retirar a torneira ou a conexão não encaixar, chame alguém com experiência.</p>
+          </aside>
+
+          <aside class="activation-note" id="activation-note" hidden>
+            <strong>Antes de ligar</strong>
+            <p>Localize os botões natural e gelada. Depois de conectar à tomada, você terá até 30 segundos para segurar os dois por 5 segundos.</p>
+          </aside>
         </div>
 
-        <aside class="help" id="help" hidden>
-          <strong>Preciso de ajuda</strong>
-          <p>Feche o registro. Se não souber retirar a torneira ou a conexão não encaixar, chame alguém com experiência.</p>
-        </aside>
-
-        <aside class="note" id="activation-note" hidden>
-          <strong>Antes de ligar</strong>
-          <p>Localize os botões natural e gelada. Depois de conectar à tomada, você terá até 30 segundos para segurar os dois por 5 segundos.</p>
+        <aside class="visual-column" aria-label="Imagem da etapa">
+          <div class="illustration" id="illustration">
+            <div class="placeholder" id="image-placeholder">
+              <span class="placeholder-number" id="visual-step" aria-hidden="true">01</span>
+              <span class="placeholder-mark" aria-hidden="true">◇</span>
+              <p>Imagem desta etapa</p>
+              <small>Será adicionada em breve</small>
+            </div>
+            <img id="step-image" alt="" hidden>
+          </div>
+          <aside class="manual-note">
+            <strong>Ficou com uma dúvida maior?</strong>
+            <p>Consulte o manual que acompanha o equipamento. Ele tem fotos reais e mais detalhes.</p>
+          </aside>
         </aside>
 
         <section class="audio-panel" aria-label="Explicação em áudio">
-          <div class="audio-buttons">
-            <button class="button button-audio" id="play-audio" type="button">▶ <span>Ouvir explicação</span></button>
-            <button class="button button-secondary" id="replay-audio" type="button">Ouvir de novo</button>
-          </div>
-          <p class="audio-status" id="audio-status" role="status" aria-live="polite">O áudio só começa quando você tocar no botão.</p>
+          <button class="button button-audio" id="play-audio" type="button">
+            <span class="button-icon" aria-hidden="true">▶</span>
+            <span class="button-label">Ouvir explicação</span>
+          </button>
+          <button class="replay" id="replay-audio" type="button">Ouvir de novo</button>
+          <p class="audio-status" id="audio-status" role="status" aria-live="polite">Toque no botão para ouvir.</p>
           <audio id="audio" preload="none"></audio>
         </section>
       </section>
 
       <nav class="navigation" aria-label="Navegação das etapas">
-        <button class="button button-secondary" id="previous" type="button">Voltar</button>
-        <button class="button button-primary" id="next" type="button">Próximo</button>
+        <button class="button button-back" id="previous" type="button">Voltar</button>
+        <button class="button button-next" id="next" type="button">Próximo <span aria-hidden="true">→</span></button>
       </nav>
       <p class="sr-only" id="step-announcement" aria-live="polite" aria-atomic="true"></p>
     </main>

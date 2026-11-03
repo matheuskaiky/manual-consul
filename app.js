@@ -6,6 +6,7 @@ const title = document.querySelector("#step-title");
 const text = document.querySelector("#step-text");
 const image = document.querySelector("#step-image");
 const imagePlaceholder = document.querySelector("#image-placeholder");
+const visualStep = document.querySelector("#visual-step");
 const progress = document.querySelector("#progress");
 const progressCopy = document.querySelector("#progress-copy");
 const audio = document.querySelector("#audio");
@@ -33,7 +34,8 @@ function saveStep() {
 }
 
 function setAudioButton(label, icon) {
-  playButton.innerHTML = `${icon} <span>${label}</span>`;
+  playButton.querySelector(".button-icon").textContent = icon;
+  playButton.querySelector(".button-label").textContent = label;
 }
 
 function stopAudio() {
@@ -57,6 +59,7 @@ function showStep(index, announce = true) {
   image.onload = () => { image.hidden = false; imagePlaceholder.hidden = true; };
   image.onerror = () => { image.hidden = true; imagePlaceholder.hidden = false; };
   image.src = mediaUrl(step.image);
+  visualStep.textContent = step.id;
   progress.value = current + 1;
   progressCopy.textContent = `Passo ${current + 1} de ${steps.length}`;
   previousButton.disabled = current === 0;
