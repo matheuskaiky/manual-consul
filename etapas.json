@@ -1,0 +1,145 @@
+[
+  {
+    "id": "01",
+    "slug": "intro",
+    "title": "Vamos começar",
+    "text": "Vamos preparar o purificador juntas, uma etapa de cada vez.",
+    "tts": "[warm, friendly] Olá! Vamos preparar seu purificador de água Consul. Eu vou explicar uma coisa de cada vez. Você pode ouvir novamente sempre que quiser. [calm] Só passe para o próximo passo depois de terminar o que está fazendo. Se precisar mexer na torneira e não se sentir segura, peça ajuda.",
+    "audio": "/audios/01-intro.mp3",
+    "image": "/imagens/01-intro.webp",
+    "imageAlt": "Purificador Consul sobre uma bancada.",
+    "imageBrief": "Purificador inteiro sobre uma bancada, vista frontal em ambiente doméstico simples; sem mãos, sem pessoas; aparência correspondente ao modelo CPB36."
+  },
+  {
+    "id": "02",
+    "slug": "location",
+    "title": "Escolha o lugar",
+    "text": "Coloque o aparelho em local firme e protegido do sol. Deixe 5 centímetros livres nas laterais e proteja também a tubulação do calor.",
+    "tts": "[calm] Primeiro, escolha um lugar firme e plano, perto da torneira e da tomada. Deixe pelo menos cinco centímetros livres de cada lado do purificador. [gently] Ele não deve receber sol diretamente. O cano e a mangueirinha que trazem a água também precisam ficar protegidos do sol, para que a água não chegue muito quente. Use somente uma entrada de água tratada, própria para beber.",
+    "audio": "/audios/02-location.mp3",
+    "image": "/imagens/02-location.webp",
+    "imageAlt": "Instalação em local sombreado, com espaço livre nas laterais.",
+    "imageBrief": "Aparelho na bancada à sombra, distância lateral de 5 cm marcada por dupla seta; luz solar incidindo longe do aparelho e tubulação; sol riscado apenas como alerta visual."
+  },
+  {
+    "id": "03",
+    "slug": "filter",
+    "title": "Coloque o filtro",
+    "text": "Com água e energia desligadas, retire a tampa vermelha, encaixe o refil e trave com a chave fornecida.",
+    "tts": "[calm] Antes de abrir a água ou ligar na tomada, vamos colocar o filtro. Abra a tampa de cima do purificador. Pegue o filtro que veio na caixa e retire a tampinha vermelha de proteção. Coloque o filtro no encaixe indicado, usando a chavinha que acompanha o aparelho para girar até travar completamente. [gently] Se não estiver encaixando com facilidade, não force. Confira o desenho do manual ou peça ajuda.",
+    "audio": "/audios/03-filter.mp3",
+    "image": "/imagens/03-filter.webp",
+    "imageAlt": "Como retirar a tampa vermelha e encaixar o filtro.",
+    "imageBrief": "Sequência visual em três quadros: tampa do purificador aberta, remoção da tampa vermelha do refil, encaixe do refil com chave fornecida. Não mostrar posição final de pega ambígua; obter direção exata a partir do equipamento/manual validado."
+  },
+  {
+    "id": "04",
+    "slug": "valve",
+    "title": "Feche a água",
+    "text": "Feche o registro de água e confira se a torneira parou de fornecer água.",
+    "tts": "[calm] Agora vamos preparar a torneira. Antes de mexer nela, feche o registro que fornece água para essa torneira. Depois, abra a torneira por um instante para confirmar que a água parou de sair. [gently] Se não souber qual registro fechar, peça ajuda. Não retire a torneira enquanto a água estiver aberta.",
+    "audio": "/audios/04-valve.mp3",
+    "image": "/imagens/04-valve.webp",
+    "imageAlt": "Fechamento do registro de água antes da instalação.",
+    "imageBrief": "Mão girando registro de água doméstico até fechar, torneira ao fundo; sem sugerir sentido de giro se modelo desconhecido."
+  },
+  {
+    "id": "05",
+    "slug": "adapter",
+    "title": "Coloque o adaptador",
+    "text": "Com o registro fechado, instale o adaptador com registro no ponto de água e recoloque a torneira usando fita veda-rosca.",
+    "tts": "[calm] Com a água fechada, retire a torneira do ponto de água. Pegue a pecinha adaptadora que veio com o purificador. Coloque fita veda-rosca nas roscas indicadas e rosqueie o adaptador no lugar da torneira. Depois, rosqueie a torneira no adaptador, também com a vedação necessária. [gently] As peças devem ficar firmes, mas sem força exagerada. Se a sua torneira não for compatível, não improvise: peça ajuda.",
+    "audio": "/audios/05-adapter.mp3",
+    "image": "/imagens/05-adapter.webp",
+    "imageAlt": "Adaptador instalado entre o cano e a torneira.",
+    "imageBrief": "Diagrama técnico explodido da conexão do manual figura 1 e 2: ponto de água roscado, adaptador Consul com registro, torneira, anéis/setas de montagem e fita veda-rosca. Geometria fiel ao kit."
+  },
+  {
+    "id": "06",
+    "slug": "hose",
+    "title": "Ligue a mangueirinha",
+    "text": "Encaixe completamente a mangueira no adaptador e na entrada atrás do purificador. Não deixe a mangueira dobrada.",
+    "tts": "[calm] Pegue a mangueirinha que veio com o purificador. Encaixe uma ponta na saída pequena do adaptador da torneira. Empurre até ela ficar bem firme. Depois, encaixe a outra ponta na entrada de água que fica atrás do purificador. [gently] Confira se as duas pontas entraram completamente e se a mangueira não ficou dobrada nem apertada.",
+    "audio": "/audios/06-hose.mp3",
+    "image": "/imagens/06-hose.webp",
+    "imageAlt": "Conexão da mangueira no adaptador e atrás do purificador.",
+    "imageBrief": "Dois detalhes lado a lado: tubo branco entrando na conexão rápida do adaptador e tubo entrando na entrada traseira do CPB36; detalhe de marca de profundidade. Sem cortes na mangueira."
+  },
+  {
+    "id": "07",
+    "slug": "leaks",
+    "title": "Abra a água",
+    "text": "Abra o registro e deixe a alavanca do adaptador na horizontal. Verifique se não há vazamentos.",
+    "tts": "[calm] Agora abra devagar o registro de água. Confira também a pequena alavanca do adaptador: ela deve estar na posição aberta, na horizontal. Olhe com atenção para as conexões da torneira, do adaptador e da mangueirinha. [serious, calm] Se aparecer qualquer gotinha ou vazamento, feche a água e corrija o encaixe antes de continuar. Se não houver vazamento, podemos seguir.",
+    "audio": "/audios/07-leaks.mp3",
+    "image": "/imagens/07-leaks.webp",
+    "imageAlt": "Alavanca do adaptador aberta e inspeção de vazamentos.",
+    "imageBrief": "Close do adaptador com pequena alavanca horizontal indicada como ABERTO; gotas apenas em painel secundário com alerta ilustrado, sem confundir montagem correta."
+  },
+  {
+    "id": "08",
+    "slug": "outlet",
+    "title": "Confira a tomada",
+    "text": "Confirme que a tensão do aparelho é igual à da tomada. Não use extensões ou adaptadores elétricos.",
+    "tts": "[calm] Antes de colocar o aparelho na tomada, confira a voltagem escrita na etiqueta do purificador. Ela deve ser igual à da tomada da sua casa: cento e vinte e sete ou duzentos e vinte volts. Use uma tomada própria, sem extensão, sem benjamim e sem adaptador elétrico. [gently] Se você não souber a voltagem da tomada, não ligue ainda. Peça ajuda para conferir.",
+    "audio": "/audios/08-outlet.mp3",
+    "image": "/imagens/08-outlet.webp",
+    "imageAlt": "Conferência da voltagem e ligação direta na tomada.",
+    "imageBrief": "Etiqueta com 127 V ou 220 V representada sem selecionar opção; tomada de parede com plugue direto; ilustração de extensão riscada."
+  },
+  {
+    "id": "09",
+    "slug": "activate",
+    "title": "Ligue e ative o filtro",
+    "text": "Localize os botões natural e gelada antes de ligar. Conecte à tomada e, em até 30 segundos, segure os dois por 5 segundos até ouvir o sinal.",
+    "tts": "[focused, calm] Neste passo, vamos fazer duas coisas seguidas. Primeiro, encontre os botões de água natural e água gelada, na parte de cima do aparelho. Deixe os dedos preparados. [clear, deliberate] Agora, coloque o plugue na tomada. Logo em seguida, aperte os botões natural e gelada ao mesmo tempo. Segure por cerca de cinco segundos, até ouvir um sinal sonoro. Isso precisa ser feito em menos de trinta segundos depois de ligar. [reassuring] Se não conseguir a tempo, retire o plugue da tomada, coloque novamente e repita.",
+    "audio": "/audios/09-activate.mp3",
+    "image": "/imagens/09-activate.webp",
+    "imageAlt": "Botões natural e gelada pressionados simultaneamente.",
+    "imageBrief": "Vista superior frontal do painel CPB36 mostrando exatamente os botões natural e gelada destacados por dois círculos discretos e dedos apontando; símbolo discreto 5 s e relógio de 30 s, sem sobreposição sobre rótulos originais."
+  },
+  {
+    "id": "10",
+    "slug": "flush-five",
+    "title": "Retire cinco litros",
+    "text": "Retire 5 litros pela opção gelada. Não beba essa água inicial.",
+    "tts": "[calm] Agora vamos limpar a passagem de água do filtro novo. Coloque uma jarra ou recipiente limpo debaixo da saída de água. Aperte o botão de água gelada para começar a sair água. Retire, ao todo, cinco litros. Se o recipiente for menor, esvazie e repita até completar os cinco litros. [firm, gentle] Não beba essa primeira água. Ela pode trazer resíduos do filtro novo.",
+    "audio": "/audios/10-flush-five.mp3",
+    "image": "/imagens/10-flush-five.webp",
+    "imageAlt": "Primeiros cinco litros de água sendo descartados.",
+    "imageBrief": "Purificador dispensando água em jarra doméstica estável, contador visual 5 L e botão gelada destacado na vista superior em pequeno detalhe."
+  },
+  {
+    "id": "11",
+    "slug": "flush-one",
+    "title": "Retire mais um litro",
+    "text": "Retire mais 1 litro pela opção natural, sem consumir a água.",
+    "tts": "[calm] Falta só mais um pouquinho. Coloque a jarra novamente debaixo da saída de água. Agora aperte o botão de água natural e retire mais um litro. Não beba essa água também. [warm] Pronto. A primeira limpeza do filtro terminou.",
+    "audio": "/audios/11-flush-one.mp3",
+    "image": "/imagens/11-flush-one.webp",
+    "imageAlt": "Mais um litro retirado pela opção de água natural.",
+    "imageBrief": "Purificador dispensando água em jarra, marcador visual 1 L e botão natural destacado, continuidade com a imagem da etapa anterior."
+  },
+  {
+    "id": "12",
+    "slug": "usage",
+    "title": "Aprenda a usar",
+    "text": "Coloque o copo e escolha natural, fria ou gelada. Aperte novamente para parar a água.",
+    "tts": "[warm, friendly] Agora você já pode usar o purificador. Coloque seu copo debaixo da saída de água. Escolha um dos três botões: natural, fria ou gelada. Aperte uma vez para a água começar a sair e aperte novamente para parar. Se preferir, mantenha o botão apertado e solte quando encher o copo. [calm] A água gelada pode demorar um pouco para ficar fria na primeira vez que o aparelho é ligado.",
+    "audio": "/audios/12-usage.mp3",
+    "image": "/imagens/12-usage.webp",
+    "imageAlt": "Copo sob a bica e os três botões de água.",
+    "imageBrief": "Vista frontal correta do CPB36 com os três botões natural, fria e gelada visíveis; copo centralizado sob bica; mão apertando um botão sem ocultar rótulos."
+  },
+  {
+    "id": "13",
+    "slug": "done",
+    "title": "Tudo pronto!",
+    "text": "Instalação concluída. Proteja do sol e, se ficar mais de 3 dias sem usar, retire 5 litros de água fria antes de beber.",
+    "tts": "[happy, gentle] Prontinho! Seu purificador já pode ser usado. [calm] Lembre-se de mantê-lo longe do sol, com a mangueirinha protegida do calor. Se notar vazamento, feche o registro e peça ajuda. Se ficar mais de três dias sem usar o aparelho, deixe sair cinco litros de água fria antes de voltar a beber. [warm] Agora é só aproveitar sua água. Um abraço!",
+    "audio": "/audios/13-done.mp3",
+    "image": "/imagens/13-done.webp",
+    "imageAlt": "Purificador instalado e copo com água pronto para beber.",
+    "imageBrief": "Purificador sobre bancada sombreada com copo cheio de água, composição limpa e acolhedora, sem pessoas, sem qualquer texto desenhado."
+  }
+]
